@@ -1,31 +1,26 @@
 <template>
-  <div class="hello">
+  <div class="card card-body text-center">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      The goal of this project is to be an interface for demonstrating logic algorithms.
+      All logic is applied on external server, this application only send requests and show solutions.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest" target="_blank" rel="noopener">unit-jest</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+    <div class="mcont">
+      <h3>External languages and servers</h3>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <a href="https://getbootstrap.com/">Bootstrap</a> is used for make responsive web design
+        </li>
+        <li class="list-group-item"> <a href="https://www.swi-prolog.org/">prolog</a> </li>
+        <li class="list-group-item"> <a href="https://www.erlang.org/">erlang</a> </li>
+      </ul>
+      <h3>Links</h3>
+      <ul  class="list-group">
+        <li class="list-group-item" ><a href="https://stumblefaves.wordpress.com/" target="_blank" rel="noopener">blog (ru)</a></li>
+      </ul>
+
+    </div>
   </div>
 </template>
 
@@ -40,18 +35,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.mcont {
+  width: max(400px, 60%);
+  text-align: start;
+  margin: 0 auto;
 }
 </style>

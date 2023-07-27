@@ -1,24 +1,11 @@
-# portfolio
+# Logic Factory
 
-## Project setup
-```
-yarn install
-```
+Presentation of logical algorithms written in other languages and 
+available on remote server.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Content:
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- PathFinder: search the shortest path in graph (prolog)
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Reference:
+Algorithms analise and description: [Blog](https://stumblefaves.wordpress.com/).
